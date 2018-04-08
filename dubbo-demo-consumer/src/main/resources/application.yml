@@ -1,0 +1,17 @@
+## Dubbo 服务消费者配置
+#spring:
+#  dubbo:
+#    application:
+#      name: dubbo-demo-consumer
+#    registry:
+#    address: zookeeper://127.0.0.1:32181
+#    scan: pro.yuchen.demo.dubbo_demo
+
+
+# web
+server:
+  port: 8082
+
+spring:
+  application:
+    name: dubbo-demo-consumer

@@ -1,0 +1,7 @@
+## Dubbo 服务消费者配置
+spring:
+  application:
+    name: dubbo-demo-provider
+  dubbo:
+    server: true
+    registry: N/A
